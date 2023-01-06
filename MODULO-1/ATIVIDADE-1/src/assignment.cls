@@ -54,3 +54,9 @@
 
     \noindent\rule{\linewidth}{.6pt}
 }
+
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{caption} 
+\captionsetup[table]{name=Tabela}
+\captionsetup[table]{skip=10pt}
