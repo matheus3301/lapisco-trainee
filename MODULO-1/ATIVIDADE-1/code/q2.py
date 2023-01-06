@@ -21,6 +21,6 @@ df2['data_from'] = 'dataframe 2'
 
 
 df3 = pd.concat([df1,df2], ignore_index=True)
-df3.species = df3.data_from.astype('category')
+df3.data_from = df3.data_from.astype('category')
 
 display(df3)
